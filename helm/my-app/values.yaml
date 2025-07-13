@@ -4,5 +4,6 @@ image:
   tag: stable
   pullPolicy: IfNotPresent
 service:
-  type: ClusterIP
+  type: LoadBalancer
   port: 80
+
